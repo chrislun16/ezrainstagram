@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66562EE820F9092F0071525E /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66562EE720F9092F0071525E /* detailViewController.m */; };
 		669F0F3220F414A3004B39EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F0F3120F414A3004B39EC /* AppDelegate.m */; };
-		669F0F3520F414A3004B39EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F0F3420F414A3004B39EC /* ViewController.m */; };
 		669F0F3820F414A3004B39EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669F0F3620F414A3004B39EC /* Main.storyboard */; };
 		669F0F3A20F414A4004B39EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669F0F3920F414A4004B39EC /* Assets.xcassets */; };
 		669F0F3D20F414A4004B39EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669F0F3B20F414A4004B39EC /* LaunchScreen.storyboard */; };
 		669F0F4020F414A4004B39EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F0F3F20F414A4004B39EC /* main.m */; };
 		669F0F4A20F414A4004B39EC /* ezrainstagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F0F4920F414A4004B39EC /* ezrainstagramTests.m */; };
 		669F0F5520F414A4004B39EC /* ezrainstagramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F0F5420F414A4004B39EC /* ezrainstagramUITests.m */; };
+		669F0F6420F423A3004B39EC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F0F6320F423A3004B39EC /* LoginViewController.m */; };
+		669F0F6720F430C9004B39EC /* signUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F0F6620F430C9004B39EC /* signUpViewController.m */; };
+		669F0F7320F5237C004B39EC /* picsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F0F7220F5237C004B39EC /* picsViewController.m */; };
+		669F0F7920F52531004B39EC /* composeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F0F7820F52531004B39EC /* composeViewController.m */; };
+		669F0F7C20F53574004B39EC /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F0F7B20F53574004B39EC /* Post.m */; };
+		669F0FC620F597BA004B39EC /* picsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F0FC520F597BA004B39EC /* picsViewCell.m */; };
 		69824B6E198FC5C37EDEBCB0 /* libPods-ezrainstagramTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DC58FC137289263976BA5D /* libPods-ezrainstagramTests.a */; };
 		71BD7F460A15AB8F4C7084FE /* libPods-ezrainstagramUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E2B1C2E32661D2FAEFD519 /* libPods-ezrainstagramUITests.a */; };
 		AF188CC6B0AB341484F179D5 /* libPods-ezrainstagram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301DE2E6558FABA92ED7C97A /* libPods-ezrainstagram.a */; };
@@ -42,11 +48,11 @@
 		301DE2E6558FABA92ED7C97A /* libPods-ezrainstagram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ezrainstagram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BA499F1338A0BD1517260E /* Pods-ezrainstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ezrainstagramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ezrainstagramUITests/Pods-ezrainstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		65E2B1C2E32661D2FAEFD519 /* libPods-ezrainstagramUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ezrainstagramUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66562EE620F9092F0071525E /* detailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		66562EE720F9092F0071525E /* detailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
 		669F0F2D20F414A3004B39EC /* ezrainstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ezrainstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669F0F3020F414A3004B39EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		669F0F3120F414A3004B39EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		669F0F3320F414A3004B39EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		669F0F3420F414A3004B39EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		669F0F3720F414A3004B39EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		669F0F3920F414A4004B39EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		669F0F3C20F414A4004B39EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +64,18 @@
 		669F0F5020F414A4004B39EC /* ezrainstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ezrainstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		669F0F5420F414A4004B39EC /* ezrainstagramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ezrainstagramUITests.m; sourceTree = "<group>"; };
 		669F0F5620F414A4004B39EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		669F0F6220F423A3004B39EC /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = /Users/ebekele/Desktop/projects/ezrainstagram/ezrainstagram/LoginViewController.h; sourceTree = "<absolute>"; };
+		669F0F6320F423A3004B39EC /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = /Users/ebekele/Desktop/projects/ezrainstagram/ezrainstagram/LoginViewController.m; sourceTree = "<absolute>"; };
+		669F0F6520F430C9004B39EC /* signUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = signUpViewController.h; sourceTree = "<group>"; };
+		669F0F6620F430C9004B39EC /* signUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = signUpViewController.m; sourceTree = "<group>"; };
+		669F0F7120F5237C004B39EC /* picsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = picsViewController.h; sourceTree = "<group>"; };
+		669F0F7220F5237C004B39EC /* picsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = picsViewController.m; sourceTree = "<group>"; };
+		669F0F7720F52531004B39EC /* composeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = composeViewController.h; sourceTree = "<group>"; };
+		669F0F7820F52531004B39EC /* composeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = composeViewController.m; sourceTree = "<group>"; };
+		669F0F7A20F53574004B39EC /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		669F0F7B20F53574004B39EC /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		669F0FC420F597BA004B39EC /* picsViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = picsViewCell.h; sourceTree = "<group>"; };
+		669F0FC520F597BA004B39EC /* picsViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = picsViewCell.m; sourceTree = "<group>"; };
 		7CEE44E8AFAEB104B75EE33C /* Pods-ezrainstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ezrainstagramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ezrainstagramTests/Pods-ezrainstagramTests.release.xcconfig"; sourceTree = "<group>"; };
 		9CE4A68636AE76F4C6EFBD0F /* Pods-ezrainstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ezrainstagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ezrainstagramTests/Pods-ezrainstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A6B0053296A7E186003C31FE /* Pods-ezrainstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ezrainstagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ezrainstagram/Pods-ezrainstagram.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,15 +136,27 @@
 		669F0F2F20F414A3004B39EC /* ezrainstagram */ = {
 			isa = PBXGroup;
 			children = (
+				669F0F6220F423A3004B39EC /* LoginViewController.h */,
+				669F0F6320F423A3004B39EC /* LoginViewController.m */,
 				669F0F3020F414A3004B39EC /* AppDelegate.h */,
 				669F0F3120F414A3004B39EC /* AppDelegate.m */,
-				669F0F3320F414A3004B39EC /* ViewController.h */,
-				669F0F3420F414A3004B39EC /* ViewController.m */,
 				669F0F3620F414A3004B39EC /* Main.storyboard */,
 				669F0F3920F414A4004B39EC /* Assets.xcassets */,
 				669F0F3B20F414A4004B39EC /* LaunchScreen.storyboard */,
 				669F0F3E20F414A4004B39EC /* Info.plist */,
 				669F0F3F20F414A4004B39EC /* main.m */,
+				669F0F6520F430C9004B39EC /* signUpViewController.h */,
+				669F0F6620F430C9004B39EC /* signUpViewController.m */,
+				669F0F7120F5237C004B39EC /* picsViewController.h */,
+				669F0F7220F5237C004B39EC /* picsViewController.m */,
+				669F0F7720F52531004B39EC /* composeViewController.h */,
+				669F0F7820F52531004B39EC /* composeViewController.m */,
+				669F0F7A20F53574004B39EC /* Post.h */,
+				669F0F7B20F53574004B39EC /* Post.m */,
+				669F0FC420F597BA004B39EC /* picsViewCell.h */,
+				669F0FC520F597BA004B39EC /* picsViewCell.m */,
+				66562EE620F9092F0071525E /* detailViewController.h */,
+				66562EE720F9092F0071525E /* detailViewController.m */,
 			);
 			path = ezrainstagram;
 			sourceTree = "<group>";
@@ -381,9 +411,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				669F0F3520F414A3004B39EC /* ViewController.m in Sources */,
 				669F0F4020F414A4004B39EC /* main.m in Sources */,
 				669F0F3220F414A3004B39EC /* AppDelegate.m in Sources */,
+				669F0F7320F5237C004B39EC /* picsViewController.m in Sources */,
+				669F0FC620F597BA004B39EC /* picsViewCell.m in Sources */,
+				669F0F6720F430C9004B39EC /* signUpViewController.m in Sources */,
+				669F0F6420F423A3004B39EC /* LoginViewController.m in Sources */,
+				669F0F7920F52531004B39EC /* composeViewController.m in Sources */,
+				669F0F7C20F53574004B39EC /* Post.m in Sources */,
+				66562EE820F9092F0071525E /* detailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

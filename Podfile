@@ -7,7 +7,7 @@ target 'ezrainstagram' do
 
   # Pods for ezrainstagram
   pod 'Parse'
-
+  pod 'MBProgressHUD'
 
   target 'ezrainstagramTests' do
     inherit! :search_paths
